@@ -24,10 +24,12 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
     case "AlkalinityChemicalValue": return PoolHealthSchema.Objects.AlkalinityChemicalValue
     case "Chemicals": return PoolHealthSchema.Objects.Chemicals
     case "ChlorineChemicalValue": return PoolHealthSchema.Objects.ChlorineChemicalValue
+    case "Coordinates": return PoolHealthSchema.Objects.Coordinates
     case "Measurement": return PoolHealthSchema.Objects.Measurement
     case "MeasurementRecord": return PoolHealthSchema.Objects.MeasurementRecord
     case "Mutation": return PoolHealthSchema.Objects.Mutation
     case "Pool": return PoolHealthSchema.Objects.Pool
+    case "PoolSettings": return PoolHealthSchema.Objects.PoolSettings
     case "Query": return PoolHealthSchema.Objects.Query
     case "Session": return PoolHealthSchema.Objects.Session
     case "User": return PoolHealthSchema.Objects.User
