@@ -21,6 +21,7 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
   public static func objectType(forTypename typename: String) -> ApolloAPI.Object? {
     switch typename {
     case "AcidChemicalValue": return PoolHealthSchema.Objects.AcidChemicalValue
+    case "Action": return PoolHealthSchema.Objects.Action
     case "AlkalinityChemicalValue": return PoolHealthSchema.Objects.AlkalinityChemicalValue
     case "Chemicals": return PoolHealthSchema.Objects.Chemicals
     case "ChlorineChemicalValue": return PoolHealthSchema.Objects.ChlorineChemicalValue
