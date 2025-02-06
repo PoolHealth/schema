@@ -28,6 +28,7 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
     case "Coordinates": return PoolHealthSchema.Objects.Coordinates
     case "Measurement": return PoolHealthSchema.Objects.Measurement
     case "MeasurementRecord": return PoolHealthSchema.Objects.MeasurementRecord
+    case "Migration": return PoolHealthSchema.Objects.Migration
     case "Mutation": return PoolHealthSchema.Objects.Mutation
     case "Pool": return PoolHealthSchema.Objects.Pool
     case "PoolSettings": return PoolHealthSchema.Objects.PoolSettings
